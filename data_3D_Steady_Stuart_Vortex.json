@@ -1,0 +1,54 @@
+{
+	"#1": "Written 2019 by Ramon Witschi, ETH Computer Science BSc, for Bachelor Thesis @ CGL",
+	
+	"IMPORT": "analytical",
+	"RECOMPUTE": true,
+	"NORMALIZED": true,
+	"TENSORPRODUCTS": true,
+
+	"W_TYPE": "a",
+	"LINE_TYPE": "no_line_filter",
+
+	"VOLUME_NAME": "stuart_vortex",
+	"VOLUME_DIR_PATH": "datasets/3D_Unsteady_Stuart_Vortex",
+
+	"NB_TIME_STEPS": 1,
+	"TIME_STEP_STRIDE": 1,
+	"TIME_STEP_OFFSET": 0,
+
+	"dimX": 128,
+	"dimY": 128,
+	"dimZ": 128,
+
+	"minX": -6.0,
+	"minY": -2.0,
+	"minZ": 1.0,
+
+	"maxX": 3.0,
+	"maxY": 2.0,
+	"maxZ": 3.0,
+
+	"#2": "(x,y,z inputs expected!) Python's eval() will be used",
+
+	"V0": "( 4.0*math.sinh(y)+4.0*math.cosh(y)-math.cos(x - z) ) / (4.0*math.cosh(y) - math.cos(x - z))",
+	"V1": "- math.sin(x - z) / (4.0*math.cosh(y) - math.cos(x - z))",
+	"V2": "1",
+
+	"A0": "1.0",
+	"A1": "1.0",
+	"A2": "1.0",
+
+	"VXA0": "1.0",
+	"VXA1": "1.0",
+	"VXA2": "1.0",
+
+	"B0": "1.0",
+	"B1": "1.0",
+	"B2": "1.0",
+
+	"VXB0": "1.0",
+	"VXB1": "1.0",
+	"VXB2": "1.0",
+
+	"#3": "End of file"
+}

@@ -1,0 +1,22 @@
+{
+	"#1": "Written 2019 by Ramon Witschi, ETH Computer Science BSc, for Bachelor Thesis @ CGL",
+	
+	"IMPORT": "am",
+	"RECOMPUTE": true,
+	"NORMALIZED": true,
+	"TENSORPRODUCTS": true,
+
+	"W_TYPE": "a",
+	"LINE_TYPE": "vortex_corelines",
+
+	"SWIRLING_STRENGTH_THRESH_LOW": 0.1,
+
+	"VOLUME_NAME": "delta65_high_",
+	"VOLUME_DIR_PATH": "datasets/3D_Steady_Delta65_High",
+
+	"NB_TIME_STEPS": 1,
+	"TIME_STEP_STRIDE": 1,
+	"TIME_STEP_OFFSET": 0,
+
+	"#3": "End of file"
+}

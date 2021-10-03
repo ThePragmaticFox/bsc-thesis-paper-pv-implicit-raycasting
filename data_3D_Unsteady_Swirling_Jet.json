@@ -1,0 +1,24 @@
+{
+	"#1": "Written 2019 by Ramon Witschi, ETH Computer Science BSc, for Bachelor Thesis @ CGL",
+
+	"IMPORT": "am",
+	"RECOMPUTE": true,
+	"NORMALIZED": false,
+	"TENSORPRODUCTS": true,
+
+	"W_TYPE": "a, b",
+	"LINE_TYPE": "no_line_filter",
+
+	"VELOCITY_MAGNITUDE_THRESH_LOW": 0.02,
+	"SWIRLING_JET_CENTER_DISTANCE_A_THRESH_HIGH": 0.48,
+	"SWIRLING_JET_CENTER_DISTANCE_B_THRESH_HIGH": 0.46,
+
+	"VOLUME_NAME": "swirling-jet_",
+	"VOLUME_DIR_PATH": "datasets/3D_Unsteady_Swirling_Jet_Time_Series",
+
+	"NB_TIME_STEPS": 30,
+	"TIME_STEP_STRIDE": 1,
+	"TIME_STEP_OFFSET": 1,
+
+	"#2": "End of file"
+}

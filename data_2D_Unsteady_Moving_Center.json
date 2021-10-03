@@ -1,0 +1,56 @@
+{
+	"#1": "Written 2019 by Ramon Witschi, ETH Computer Science BSc, for Bachelor Thesis @ CGL",
+	
+	"IMPORT": "analytical",
+	"RECOMPUTE": true,
+	"NORMALIZED": true,
+	"TENSORPRODUCTS": true,
+
+	"SWIRLING_STRENGTH_THRESH_LOW": 1E-5,
+
+	"W_TYPE": "a",
+	"LINE_TYPE": "vortex_corelines",
+
+	"VOLUME_NAME": "moving_center",
+	"VOLUME_DIR_PATH": "datasets/2D_Steady_Moving_Center",
+
+	"NB_TIME_STEPS": 1,
+	"TIME_STEP_STRIDE": 1,
+	"TIME_STEP_OFFSET": 0,
+
+	"dimX": 128,
+	"dimY": 128,
+	"dimZ": 128,
+
+	"minX": -2.0,
+	"minY": -2.0,
+	"minZ": 0.0,
+
+	"maxX": 2.0,
+	"maxY": 2.0,
+	"maxZ": 4.0,
+
+	"#2": "(x,y,z inputs expected!) Python's eval() will be used",
+
+	"V0": "-y + 0.5*z - 1",
+	"V1": "x + 0.5*z - 1",
+	"V2": "1",
+
+	"A0": "-x - 0.5*z + 1.5",
+	"A1": "-y + 0.5*z - 0.5",
+	"A2": "0",
+
+	"VXA0": "0.5 + y - 0.5*z",
+	"VXA1": "1.5 - x - 0.5*z",
+	"VXA2": "2. - 2.5*x + (x**2) + 1.5*y + (y**2) - 2.*z + 1.*x*z - 1.*y*z + 0.5*(z**2)",
+
+	"B0": "y - 0.5*z + 0.5",
+	"B1": "-x - 0.5*z + 1.5",
+	"B2": "0",
+
+	"VXB0": "-1.5 + x + 0.5*z",
+	"VXB1": "0.5 + y - 0.5*z",
+	"VXB2": "-1. + 0.5*x - 0.5*y + 0.5*z",
+
+	"#3": "End of file"
+}

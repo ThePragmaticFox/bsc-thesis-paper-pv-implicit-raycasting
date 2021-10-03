@@ -1,0 +1,22 @@
+{
+	"#1": "Written 2019 by Ramon Witschi, ETH Computer Science BSc, for Bachelor Thesis @ CGL",
+
+	"IMPORT": "am",
+	"RECOMPUTE": true,
+	"NORMALIZED": true,
+	"TENSORPRODUCTS": true,
+
+	"W_TYPE": "a",
+	"LINE_TYPE": "vortex_corelines",
+
+	"SWIRLING_STRENGTH_THRESH_LOW": 5.0E-3,
+
+	"VOLUME_NAME": "tornado3d_",
+	"VOLUME_DIR_PATH": "datasets/3D_Steady_Tornado",
+
+	"NB_TIME_STEPS": 1,
+	"TIME_STEP_STRIDE": 1,
+	"TIME_STEP_OFFSET": 0,
+
+	"#2": "End of file"
+}

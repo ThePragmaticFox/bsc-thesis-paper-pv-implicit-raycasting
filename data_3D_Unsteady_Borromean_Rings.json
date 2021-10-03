@@ -1,0 +1,20 @@
+{
+	"#1": "Written 2019 by Ramon Witschi, ETH Computer Science BSc, for Bachelor Thesis @ CGL",
+
+	"IMPORT": "am",
+	"RECOMPUTE": true,
+	"NORMALIZED": true,
+	"TENSORPRODUCTS": true,
+
+	"W_TYPE": "a, b",
+	"LINE_TYPE": "no_line_filter",
+
+	"VOLUME_NAME": "animation_",
+	"VOLUME_DIR_PATH": "datasets/3D_Unsteady_Borromean_Rings_Time_Series",
+
+	"NB_TIME_STEPS": 5,
+	"TIME_STEP_STRIDE": 199,
+	"TIME_STEP_OFFSET": 1,
+
+	"#2": "End of file"
+}

@@ -1,0 +1,8 @@
+datasets
+.vscode
+.mypy_cache
+bsc-thesis-project-workspace.code-workspace
+\_\_pycache\_\_
+*pycache*
+scene_*
+!paper_camera_settings_and_benchmark_data/*

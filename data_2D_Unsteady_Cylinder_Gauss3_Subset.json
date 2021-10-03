@@ -1,0 +1,20 @@
+{
+	"#1": "Written 2019 by Ramon Witschi, ETH Computer Science BSc, for Bachelor Thesis @ CGL",
+
+	"IMPORT": "am",
+	"RECOMPUTE": true,
+	"NORMALIZED": true,
+	"TENSORPRODUCTS": true,
+
+	"W_TYPE": "a",
+	"LINE_TYPE": "no_line_filter",
+
+	"VOLUME_NAME": "cylinder_Gauss3_subset_",
+	"VOLUME_DIR_PATH": "datasets/2D_Unsteady_Cylinder_Gauss3_Subset",
+
+	"NB_TIME_STEPS": 1,
+	"TIME_STEP_STRIDE": 1,
+	"TIME_STEP_OFFSET": 0,
+
+	"#2": "End of file"
+}
